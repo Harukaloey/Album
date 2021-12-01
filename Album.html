@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="./Album.css"/> 
     <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
   </head>
@@ -9,14 +10,17 @@
     <div class="container">
       <nav class="nav">
         <input
+          form="idBar"
           type="text"
           name="searchBar"
           id="searchBar"
           placeholder="Search..."
         />
+        <button id="idBar">Submit</button>
       </nav>
-      <ul id="albumList"></ul>
+      <ul id="albumList">
+      </ul>
     </div>
-    <script src="src/index.js"></script>
+    <script src="./Album.js"></script>
   </body>
 </html>
